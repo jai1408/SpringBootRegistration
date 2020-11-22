@@ -1,6 +1,6 @@
-package com.springboot.register.service;
+package com.citi.register.service;
 
-import com.springboot.register.model.User;
+import com.citi.register.model.User;
 
 public interface UserService {
 	

@@ -1,4 +1,4 @@
-package com.springboot.register.security;
+package com.citi.register.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

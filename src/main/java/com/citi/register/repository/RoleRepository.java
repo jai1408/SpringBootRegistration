@@ -1,8 +1,8 @@
-package com.springboot.register.repository;
+package com.citi.register.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.springboot.register.model.Role;
+import com.citi.register.model.Role;
 	
 public interface RoleRepository extends JpaRepository<Role, Long> {
 	

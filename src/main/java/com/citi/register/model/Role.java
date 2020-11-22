@@ -1,4 +1,4 @@
-package com.springboot.register.model;
+package com.citi.register.model;
 
 import java.util.Set;
 

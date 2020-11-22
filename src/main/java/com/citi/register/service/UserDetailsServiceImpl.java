@@ -1,4 +1,4 @@
-package com.springboot.register.service;
+package com.citi.register.service;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -12,9 +12,9 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.springboot.register.model.Role;
-import com.springboot.register.model.User;
-import com.springboot.register.repository.UserRepository;
+import com.citi.register.model.Role;
+import com.citi.register.model.User;
+import com.citi.register.repository.UserRepository;
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {

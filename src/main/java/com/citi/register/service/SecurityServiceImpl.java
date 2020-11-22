@@ -1,4 +1,4 @@
-package com.springboot.register.service;
+package com.citi.register.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

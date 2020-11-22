@@ -1,4 +1,4 @@
-package com.springboot.register.controller;
+package com.citi.register.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.AuthenticationException;
@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.springboot.register.model.User;
-import com.springboot.register.service.SecurityService;
-import com.springboot.register.service.UserService;
-import com.springboot.register.validator.UserValidator;
+import com.citi.register.model.User;
+import com.citi.register.service.SecurityService;
+import com.citi.register.service.UserService;
+import com.citi.register.validator.UserValidator;
 
 @Controller
 public class UserController {

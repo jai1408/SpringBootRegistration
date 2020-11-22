@@ -1,4 +1,4 @@
-package com.springboot.register.service;
+package com.citi.register.service;
 
 import java.util.HashSet;
 
@@ -6,10 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.springboot.register.model.Role;
-import com.springboot.register.model.User;
-import com.springboot.register.repository.RoleRepository;
-import com.springboot.register.repository.UserRepository;
+import com.citi.register.model.Role;
+import com.citi.register.model.User;
+import com.citi.register.repository.RoleRepository;
+import com.citi.register.repository.UserRepository;
 
 @Service
 public class UserServiceImpl implements UserService {

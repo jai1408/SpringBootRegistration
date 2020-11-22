@@ -1,13 +1,13 @@
-package com.springboot.register;
+package com.citi.register;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootRegistrationApplication {
+public class RegistrationApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootRegistrationApplication.class, args);
+		SpringApplication.run(RegistrationApp.class, args);
 	}
 
 }
